@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Übersicht – Umbaumaschine</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 20px;
+      color: #2c3e50;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #1b4f72;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #21618c;
+      border-bottom: 2px solid #d6eaf8;
+      padding-bottom: 6px;
+      margin-top: 40px;
+    }
+
+    .section {
+      margin-top: 20px;
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .data-table td {
+      padding: 10px;
+      vertical-align: top;
+    }
+
+    .label-cell {
+      width: 40%;
+      font-weight: bold;
+      color: #34495e;
+    }
+
+    .value-cell {
+      width: 30%;
+    }
+
+    .input-cell {
+      width: 30%;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 6px 10px;
+      border: 1px solid #aab7b8;
+      border-radius: 6px;
+      background-color: #ecf0f1;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Übersichtstafel – Umbaumaschine</h1>
+
+    <div class="section">
+      <h2>Maschineninformationen</h2>
+      <table class="data-table">
+        <tr><td class="label-cell">Typ:</td><td class="value-cell">B 75 Pro Encor - AU-2023-02017</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+        <tr><td class="label-cell">Seriennummer:</td><td class="value-cell">04.075.12025</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+        <tr><td class="label-cell">Ehemaliger Auftrag:</td><td class="value-cell">AU-2023-02017</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+        <tr><td class="label-cell">Ehemaliges Gewicht:</td><td class="value-cell">4840 kg</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Kundeninformationen</h2>
+      <table class="data-table">
+        <tr><td class="label-cell">Kunde:</td><td class="value-cell">Conway Piling</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+        <tr><td class="label-cell">Aktueller Auftrag:</td><td class="value-cell">AU-2025-00951</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Umbaumaßnahmen</h2>
+      <table class="data-table">
+        <tr><td class="label-cell">Austausch:</td><td class="value-cell">ADLER AGBK mit Eurodrill RH4X</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+        <tr><td class="label-cell">Wasserführung:</td><td class="value-cell">wird demontiert</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+        <tr><td class="label-cell">Spannglocke:</td><td class="value-cell">wird demontiert</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+        <tr><td class="label-cell">Kreiselpumpe:</td><td class="value-cell">wird demontiert</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+        <tr><td class="label-cell">Klemm-Brech-Hubschelle:</td><td class="value-cell">wird montiert</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+        <tr><td class="label-cell">Gestängeklemme:</td><td class="value-cell">rutscht nach unten, wird zur Schutzrohrklemme</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>SolidWorks / Konstruktion</h2>
+      <table class="data-table">
+        <tr><td class="label-cell">Modellaufbau:</td><td class="value-cell">grob zur Kundenpräsentation</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+        <tr><td class="label-cell">Probemaschine:</td><td class="value-cell">AU-2025-XXXXX – RH4</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+        <tr><td class="label-cell">Konstruktion:</td><td class="value-cell">umgerüstet zu AU-2023-02017 – Encor Bodemwarmte</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+        <tr><td class="label-cell">Umrüstbaugruppe:</td><td class="value-cell">AU-2025/00951 B 75 Pro Conway Piling Umrüstung</td><td class="input-cell"><input type="text" placeholder="Anmerkung"></td></tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
